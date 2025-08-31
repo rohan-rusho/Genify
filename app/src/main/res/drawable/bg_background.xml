@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Base: deep navy -> near black -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:type="linear"
+                android:angle="270"
+                android:startColor="#0E1430"
+                android:endColor="#0080FF" />
+        </shape>
+    </item>
+
+    <!-- Soft top glow so content doesn’t feel boxed in -->
+    <item android:top="0dp" android:bottom="0dp">
+        <shape android:shape="rectangle">
+            <gradient
+                android:type="radial"
+                android:gradientRadius="900dp"
+                android:centerX="50%"
+                android:centerY="0%"
+                android:startColor="#7B1FA2"
+            android:endColor="#00000000" />
+        </shape>
+    </item>
+
+    <!-- Vignette around edges for depth -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:type="radial"
+                android:gradientRadius="1200dp"
+                android:centerX="50%"
+                android:centerY="60%"
+                android:startColor="#00000000"
+                android:endColor="#D37B1FA2" />
+        </shape>
+    </item>
+
+    <!-- Bottom shadow band to anchor bottom nav -->
+    <item android:gravity="bottom">
+        <shape android:shape="rectangle">
+            <gradient
+                android:type="linear"
+                android:angle="90"
+                android:startColor="#C3000000"
+                android:endColor="#00000000" />
+        </shape>
+    </item>
+
+</layer-list>

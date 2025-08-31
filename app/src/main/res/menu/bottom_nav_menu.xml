@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_coolname"
+        android:title="Cool Name"
+        android:icon="@drawable/name" />
+
+    <item
+        android:id="@+id/nav_username"
+        android:title="Username"
+        android:icon="@drawable/username" />
+
+    <item
+        android:id="@+id/nav_password"
+        android:title="Password"
+        android:icon="@drawable/pass" />
+
+    <item
+        android:id="@+id/nav_bio"
+        android:title="Bio"
+        android:icon="@drawable/bio" />
+
+</menu>

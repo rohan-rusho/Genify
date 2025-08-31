@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="24dp">
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/pageTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cool Name Generator"
+            android:textColor="#DDD3FF"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- Input -->
+        <EditText
+            android:id="@+id/inputField"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:background="@drawable/rounded_textview"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:hint="Enter your word"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Generate Button -->
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/generateButton"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:text="Generate"
+            android:background="@drawable/blue_gradient"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- Placeholder -->
+        <TextView
+            android:id="@+id/textPlaceholder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your generated name will appear here"
+            android:textColor="#AAAAAA"
+            android:textSize="20sp"
+            android:layout_marginTop="16dp"/>
+
+        <!-- Result -->
+        <TextView
+            android:id="@+id/textResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"/>
+
+        <!-- Copy Button -->
+        <Button
+            android:id="@+id/btnCopy"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:text="Copy"
+            android:background="@drawable/share"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"
+            android:visibility="gone"/>
+
+        <!-- Share Button -->
+        <Button
+            android:id="@+id/btnShare"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:text="Share"
+            android:background="@drawable/share"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:layout_marginTop="12dp"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+</ScrollView>

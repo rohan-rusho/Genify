@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_background"
+    android:orientation="vertical">
+
+    <!-- Top container: fragment + instruction -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <!-- Container where fragments will be loaded -->
+        <FrameLayout
+            android:id="@+id/fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <!-- Instruction Text above bottom navigation -->
+        <TextView
+            android:id="@+id/bottomInstruction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Keep generating until you find what you like!"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="12dp"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:padding="8dp" />
+
+    </LinearLayout>
+
+    <!-- Bottom Navigation Menu -->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:menu="@menu/bottom_nav_menu"
+        android:background="#54186D"
+        app:labelVisibilityMode="labeled"
+        app:itemIconTint="@color/white"
+        app:itemTextColor="@color/white" />
+
+</LinearLayout>
