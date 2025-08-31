@@ -51,10 +51,10 @@ Genify is an all-in-one Android app that lets you generate **cool names, usernam
 
 1. Clone the repository:
 
-```bash
+```
 git clone https://github.com/yourusername/genify.git
 Open the project in Android Studio.
-
+```
 Build and run on an emulator or Android device.
 
 ⚙️ Technologies Used
@@ -96,10 +96,8 @@ You can download the APK and start generating creative names, usernames, passwor
 
 Download APK
 
-yaml
-Copy code
 
----
+```
 
 ✅ **What I fixed:**
 
@@ -109,7 +107,7 @@ Copy code
 - Lists and steps are correctly nested and readable.  
 - Badges are all at the top with spacing.  
 
----
+```
 
 If you want, I can **also make a fully “GitHub-ready” version with badges, GIFs, and download links that you can directly copy-paste and it will look professional in the repo**.  
 
