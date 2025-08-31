@@ -1,9 +1,9 @@
 # 🚀 Genify - Name, Username, Password & Bio Generator
 
-![GitHub release](https://img.shields.io/github/v/release/yourusername/genify)
-![GitHub last commit](https://img.shields.io/github/last-commit/yourusername/genify)
-![GitHub issues](https://img.shields.io/github/issues/yourusername/genify)
-![License](https://img.shields.io/github/license/yourusername/genify)
+![GitHub release](https://img.shields.io/github/v/release/rohan-rusho/genify)
+![GitHub last commit](https://img.shields.io/github/last-commit/rohan-rusho/genify)
+![GitHub issues](https://img.shields.io/github/issues/rohan-rusho/genify)
+![License](https://img.shields.io/github/license/rohan-rusho/genify)
 
 Genify is an all-in-one Android app that lets you generate **cool names, usernames, strong passwords, and creative bios** instantly. Perfect for social media, gaming, or personal use!
 
